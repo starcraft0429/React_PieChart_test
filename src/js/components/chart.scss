@@ -1,0 +1,37 @@
+#mainView{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.staticDiv{
+	width: 500px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.btnDiv{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.cus_btn{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border: 2px white solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.cus_btn:hover{
+	border: 2px gray solid;
+}
+.cus_btn:active{
+	border: 2px gray solid;
+	opacity: 0.8;
+}
